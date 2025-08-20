@@ -8,12 +8,12 @@ export const api = axios.create({
 });
 
 export const getTodos = async (): Promise<Todo[]> => {
-  const response = await api.get('/');
+  const response = await api.get('');
   return response.data;
 };
 
 export const addTodo = async (description: string): Promise<Todo> => {
-  const response = await api.post('/', { description, completed: false });
+  const response = await api.post('', { description, completed: false });
   return response.data;
 };
 
