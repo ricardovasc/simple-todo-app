@@ -7,10 +7,14 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
+    "@types/react-router-dom": "^5.3.3",
     "axios": "^1.11.0",
     "axios-mock-adapter": "^2.1.0",
+    "chart.js": "^4.5.0",
     "react": "^19.1.1",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -39,11 +43,11 @@
     ]
   },
   "devDependencies": {
-    "@types/axios-mock-adapter": "^1.9.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/axios-mock-adapter": "^1.9.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.10",
